@@ -10,6 +10,8 @@
     "settings": {
         // Display line length guides
         "editor.rulers": [72, 79],
+        // Display line numbers
+        "editor.lineNumbers": "on",
         // Turn off annoying overzealous autocomplete
         "editor.acceptSuggestionOnEnter": "off",
         // Formatting tools
@@ -19,6 +21,6 @@
             "--experimental-string-processing"
         ],        
         // Set the default python to the conda install
-        "python.defaultInterpreterPath": "/opt/conda/bin/python"
+        "python.defaultInterpreterPath": "/opt/conda/envs/earth-analytics-python/bin/python"
     }
 }
